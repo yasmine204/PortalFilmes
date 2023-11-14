@@ -1,0 +1,144 @@
+body { background: black; color: white; }
+
+/*  CABEÇALHO  */
+.H { background: black; text-align: center; }
+
+.header_area { padding: 20px; }
+
+.logo { width: 170px; }
+
+.menu_area { margin-top: 30px; margin-left: auto; margin-right: auto; }
+
+.menu_area nav a { color: white; }
+
+.menu_area nav a:hover { background-color: white;  color: black; }
+
+.active { background-color:white !important;  color: black !important; }
+
+.btn2 { background: white; color: black; margin-top: 17px; width: 100px; height: 35px; cursor: pointer; border-radius: 5px; border-color: black; margin-left: 5px; }
+
+.inp { width: 400px; height: 30px; margin-top: 20px; margin-left: 620px; border-radius: 5px; border-color: black; padding-left: 5px; }
+
+
+
+/*  LANÇAMENTOS  */
+.L { color: black;  margin-bottom: 20px;  background: white; }
+
+.titulo_l { margin-bottom: 20px; text-align: center; padding: 20px; }
+
+.card { margin-bottom: 10px; margin-top: 5px; }
+
+.cor { background: white; }
+
+
+
+/*  INFOS  */
+.I { background:black;  color: white;  margin-bottom: 20px; }
+
+
+/*  NOVIDADES  */
+.titulo_n { margin-top: 40px; }
+
+.novidades_area img { margin-top: 10px;  width: 200px;  margin-bottom: 10px; }
+
+.nov1_area { margin-top: 30px;  margin-bottom: 5px;  background: white;  color: black; }
+
+.nov2_area { background: black;  color: white;  margin-bottom: 5px; }
+
+.nov3_area { background: white;  color: black; }
+
+.txt1_nov { margin-top: 10px; }
+
+.txt2_nov { margin-top: 10px; }
+
+.txt3_nov { margin-top: 10px; }
+
+
+/*  SOBRE  */
+.titulo_s { margin-top: 45px; }
+
+.txt_sobre { margin-top: 30px;  font-size: 14px; }
+
+
+
+/*  EDITORIAL  */
+.titulo_ed { margin-top: 240px; }
+
+.bi-instagram { margin-left: 10px; }
+
+.bi-twitter { margin-left: 10px; }
+
+
+
+/*  FOOTER  */
+
+.footer { background: black;  color: white; }
+
+.footer_area { padding: 5px;  text-align: center;  font-size: 14px;  margin-top: 20px; }
+
+.logo2 { margin-top: -15px;  width: 90px; }
+
+
+
+/*  MEDIA QUERIES  */
+
+@media screen and (max-width:600px)
+{
+    .pesquisa_area { display: none; } 
+    
+    .inp { width: 300px; height: 35px; margin-right: auto; margin-left: auto; }
+
+    .btn2 { margin-left: auto; margin-right: auto; margin-top: 20px }
+
+    .titulo_ed { margin-top: 30px;}
+
+    .logo2 { margin-top: 20px; }
+
+    .titulo_n { text-align: center; }
+
+    .novidades_area { display: none; }
+
+    .t { display: none; }
+
+    .A { background: black;  color: white; }
+}
+
+@media screen and (min-width:601px) and (max-width:640px)
+{
+    .menu_area { font-size: 10px; }
+
+    .inp { width: 300px; height: 35px; margin-right: auto; margin-left: auto; }
+
+    .btn2 { margin-left: auto; margin-right: auto; margin-top: 20px }
+
+    .pesquisa_area { display: none; }
+    
+    .area_imagens img { margin-left: 100px; }
+
+    .logo2 { margin-top: 20px; }
+
+    .titulo_ed { margin-top: 30px;}
+
+    .titulo_n { text-align: center; }
+}
+
+@media screen and (min-width:641px) and (max-width:1024px)
+{
+    .menu_area {  padding-left: 20px; margin-top: 50px; }
+
+    .pesquisa_area { display: none; }
+
+    .inp { width: 500px; height: 35px; padding-left: 10px; margin-left: 100px; margin-bottom: 15px; }
+
+    .btn2 { margin-top: 20px; }
+
+    .logo { margin-top: 20px; margin-left: 60px; }
+
+    .titulo_n { text-align: center; }
+
+    .menu_area { font-size: 14px;  margin-left: 60px; }
+
+    .videos iframe { width: 100%; }
+
+    .area_imagens img { height: 200px; }
+}
